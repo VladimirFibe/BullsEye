@@ -1,32 +1,8 @@
-//
-//  ViewController.swift
-//  BullsEye
-//
-//  Created by User on 13.10.2021.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-    var currentValue = 0
-    var targetValue = 0
-    var score = 0
-    var round = 0
+    var model = Model()
     
-    func startNewRound() {
-        round += 1
-        targetValue = Int.random(in: 1...100)
-        currentValue = 50
-        slider.value = Float (currentValue)
-        updateLabels()
-    }
-    
-    
-    func updateLabels() {
-        targetLabel.text = String(targetValue)
-        scoreLabel.text = String(score)
-        roundLabel.text = String(round)
-    }
     
     @IBOutlet var targetLabel :UILabel!
     @IBOutlet var slider: UISlider!
@@ -50,29 +26,13 @@ class ViewController: UIViewController {
         slider.setMinimumTrackImage(trackLeftResizable, for: .normal)
         let trackRightImage = UIImage(named: "SliderTrackRight")!
         let trackRightResizable = trackRightImage.resizableImage(withCapInsets: insets)
-        slider.setMaximumTrackImage(trackRightResizable, for: .normal)    }
+        slider.setMaximumTrackImage(trackRightResizable, for: .normal)
+    }
     
     @IBAction func ShowAlert () {
-        let difference = abs(targetValue - currentValue)
-        var points = 100 - difference
-        let title: String
-        if difference == 0 {
-            title = "Perfect!"
-            points += 100
-        } else if difference < 5 {
-            title = "You almost had it!"
-            if difference == 1 {
-                points += 50
-            }
-        } else if difference < 10 {
-            title = "Pretty good!"
-        } else {
-            title = "Not even close..."
-        }
-        score += points
-        let message = "You scored \(points) points"
+        let message = "You scored \(model.points()) points"
         let alert = UIAlertController(
-            title: title,
+            title: model.title,
             message: message,
             preferredStyle: .alert)
         let action = UIAlertAction(
@@ -84,12 +44,22 @@ class ViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     @IBAction func sliderMoved(_ slider: UISlider) {
-        currentValue = lroundf(slider.value)
+        model.setCurrentValue(lroundf(slider.value))
     }
 
     @IBAction func startNewGame() {
-        score = 0
-        round = 0
-        startNewRound()
+        model.startNewGame()
+        updateLabels()
+    }
+    
+    private func startNewRound() {
+        model.startNewRound()
+        updateLabels()
+    }
+    
+    func updateLabels() {
+        targetLabel.text = String(model.targetValue)
+        scoreLabel.text = String(model.score)
+        roundLabel.text = String(model.round)
     }
 }

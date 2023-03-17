@@ -7,38 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2761D13329C4A02500B388C8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761D13229C4A02500B388C8 /* Model.swift */; };
 		CE6A2E782742BAF200F74BEB /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A2E772742BAF200F74BEB /* AboutViewController.swift */; };
-		CE9B0DC5273E907400B6BDCA /* SliderTrackRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B0DBB273E907400B6BDCA /* SliderTrackRight@2x.png */; };
-		CE9B0DC6273E907400B6BDCA /* Button-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B0DBC273E907400B6BDCA /* Button-Highlighted@2x.png */; };
-		CE9B0DC7273E907400B6BDCA /* Button-Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B0DBD273E907400B6BDCA /* Button-Normal@2x.png */; };
-		CE9B0DC8273E907400B6BDCA /* SliderTrackLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B0DBE273E907400B6BDCA /* SliderTrackLeft@2x.png */; };
-		CE9B0DC9273E907400B6BDCA /* SmallButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B0DBF273E907400B6BDCA /* SmallButton@2x.png */; };
-		CE9B0DCA273E907400B6BDCA /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B0DC0273E907400B6BDCA /* Background@2x.png */; };
-		CE9B0DCB273E907400B6BDCA /* SliderThumb-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B0DC1273E907400B6BDCA /* SliderThumb-Highlighted@2x.png */; };
-		CE9B0DCC273E907400B6BDCA /* SliderThumb-Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B0DC2273E907400B6BDCA /* SliderThumb-Normal@2x.png */; };
-		CE9B0DCD273E907400B6BDCA /* InfoButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B0DC3273E907400B6BDCA /* InfoButton@2x.png */; };
-		CE9B0DCE273E907400B6BDCA /* StartOverIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B0DC4273E907400B6BDCA /* StartOverIcon@2x.png */; };
 		CEA52F9627174C4500DF53DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA52F9527174C4500DF53DF /* AppDelegate.swift */; };
 		CEA52F9827174C4500DF53DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA52F9727174C4500DF53DF /* SceneDelegate.swift */; };
 		CEA52F9A27174C4500DF53DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA52F9927174C4500DF53DF /* ViewController.swift */; };
 		CEA52F9D27174C4500DF53DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA52F9B27174C4500DF53DF /* Main.storyboard */; };
 		CEA52F9F27174C4700DF53DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA52F9E27174C4700DF53DF /* Assets.xcassets */; };
 		CEA52FA227174C4700DF53DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA52FA027174C4700DF53DF /* LaunchScreen.storyboard */; };
-		CEA76AEF2753BB47000AB8B2 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = CEA76AEE2753BB47000AB8B2 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2761D13229C4A02500B388C8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CE6A2E772742BAF200F74BEB /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		CE9B0DBB273E907400B6BDCA /* SliderTrackRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderTrackRight@2x.png"; path = "images/SliderTrackRight@2x.png"; sourceTree = SOURCE_ROOT; };
-		CE9B0DBC273E907400B6BDCA /* Button-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button-Highlighted@2x.png"; path = "images/Button-Highlighted@2x.png"; sourceTree = SOURCE_ROOT; };
-		CE9B0DBD273E907400B6BDCA /* Button-Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button-Normal@2x.png"; path = "images/Button-Normal@2x.png"; sourceTree = SOURCE_ROOT; };
-		CE9B0DBE273E907400B6BDCA /* SliderTrackLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderTrackLeft@2x.png"; path = "images/SliderTrackLeft@2x.png"; sourceTree = SOURCE_ROOT; };
-		CE9B0DBF273E907400B6BDCA /* SmallButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SmallButton@2x.png"; path = "images/SmallButton@2x.png"; sourceTree = SOURCE_ROOT; };
-		CE9B0DC0273E907400B6BDCA /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Background@2x.png"; path = "images/Background@2x.png"; sourceTree = SOURCE_ROOT; };
-		CE9B0DC1273E907400B6BDCA /* SliderThumb-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderThumb-Highlighted@2x.png"; path = "images/SliderThumb-Highlighted@2x.png"; sourceTree = SOURCE_ROOT; };
-		CE9B0DC2273E907400B6BDCA /* SliderThumb-Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderThumb-Normal@2x.png"; path = "images/SliderThumb-Normal@2x.png"; sourceTree = SOURCE_ROOT; };
-		CE9B0DC3273E907400B6BDCA /* InfoButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "InfoButton@2x.png"; path = "images/InfoButton@2x.png"; sourceTree = SOURCE_ROOT; };
-		CE9B0DC4273E907400B6BDCA /* StartOverIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StartOverIcon@2x.png"; path = "images/StartOverIcon@2x.png"; sourceTree = SOURCE_ROOT; };
 		CEA52F9227174C4500DF53DF /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA52F9527174C4500DF53DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA52F9727174C4500DF53DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +28,6 @@
 		CEA52F9E27174C4700DF53DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA52FA127174C4700DF53DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA52FA327174C4700DF53DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEA76AEE2753BB47000AB8B2 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = ../../BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +41,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2761D12E29C49FCA00B388C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEA52F9927174C4500DF53DF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2761D12F29C49FDA00B388C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEA52F9B27174C4500DF53DF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2761D13029C49FF000B388C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA52F9527174C4500DF53DF /* AppDelegate.swift */,
+				CEA52F9727174C4500DF53DF /* SceneDelegate.swift */,
+				CE6A2E772742BAF200F74BEB /* AboutViewController.swift */,
+				CEA52F9E27174C4700DF53DF /* Assets.xcassets */,
+				CEA52FA027174C4700DF53DF /* LaunchScreen.storyboard */,
+				CEA52FA327174C4700DF53DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2761D13129C4A00F00B388C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2761D13229C4A02500B388C8 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CEA52F8927174C4500DF53DF = {
 			isa = PBXGroup;
 			children = (
@@ -80,25 +97,10 @@
 		CEA52F9427174C4500DF53DF /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
-				CEA76AEE2753BB47000AB8B2 /* BullsEye.html */,
-				CEA52F9527174C4500DF53DF /* AppDelegate.swift */,
-				CEA52F9727174C4500DF53DF /* SceneDelegate.swift */,
-				CEA52F9927174C4500DF53DF /* ViewController.swift */,
-				CE6A2E772742BAF200F74BEB /* AboutViewController.swift */,
-				CEA52F9B27174C4500DF53DF /* Main.storyboard */,
-				CEA52F9E27174C4700DF53DF /* Assets.xcassets */,
-				CE9B0DC0273E907400B6BDCA /* Background@2x.png */,
-				CE9B0DBC273E907400B6BDCA /* Button-Highlighted@2x.png */,
-				CE9B0DBD273E907400B6BDCA /* Button-Normal@2x.png */,
-				CE9B0DC3273E907400B6BDCA /* InfoButton@2x.png */,
-				CE9B0DC1273E907400B6BDCA /* SliderThumb-Highlighted@2x.png */,
-				CE9B0DC2273E907400B6BDCA /* SliderThumb-Normal@2x.png */,
-				CE9B0DBE273E907400B6BDCA /* SliderTrackLeft@2x.png */,
-				CE9B0DBB273E907400B6BDCA /* SliderTrackRight@2x.png */,
-				CE9B0DBF273E907400B6BDCA /* SmallButton@2x.png */,
-				CE9B0DC4273E907400B6BDCA /* StartOverIcon@2x.png */,
-				CEA52FA027174C4700DF53DF /* LaunchScreen.storyboard */,
-				CEA52FA327174C4700DF53DF /* Info.plist */,
+				2761D13029C49FF000B388C8 /* Supporting Files */,
+				2761D13129C4A00F00B388C8 /* Model */,
+				2761D12F29C49FDA00B388C8 /* View */,
+				2761D12E29C49FCA00B388C8 /* Controller */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -163,18 +165,7 @@
 			files = (
 				CEA52FA227174C4700DF53DF /* LaunchScreen.storyboard in Resources */,
 				CEA52F9F27174C4700DF53DF /* Assets.xcassets in Resources */,
-				CE9B0DCE273E907400B6BDCA /* StartOverIcon@2x.png in Resources */,
-				CE9B0DCB273E907400B6BDCA /* SliderThumb-Highlighted@2x.png in Resources */,
-				CEA76AEF2753BB47000AB8B2 /* BullsEye.html in Resources */,
-				CE9B0DC6273E907400B6BDCA /* Button-Highlighted@2x.png in Resources */,
-				CE9B0DCA273E907400B6BDCA /* Background@2x.png in Resources */,
-				CE9B0DC7273E907400B6BDCA /* Button-Normal@2x.png in Resources */,
-				CE9B0DC9273E907400B6BDCA /* SmallButton@2x.png in Resources */,
-				CE9B0DC5273E907400B6BDCA /* SliderTrackRight@2x.png in Resources */,
-				CE9B0DCC273E907400B6BDCA /* SliderThumb-Normal@2x.png in Resources */,
 				CEA52F9D27174C4500DF53DF /* Main.storyboard in Resources */,
-				CE9B0DCD273E907400B6BDCA /* InfoButton@2x.png in Resources */,
-				CE9B0DC8273E907400B6BDCA /* SliderTrackLeft@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2761D13329C4A02500B388C8 /* Model.swift in Sources */,
 				CEA52F9A27174C4500DF53DF /* ViewController.swift in Sources */,
 				CEA52F9627174C4500DF53DF /* AppDelegate.swift in Sources */,
 				CE6A2E782742BAF200F74BEB /* AboutViewController.swift in Sources */,
@@ -344,8 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,8 +364,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
