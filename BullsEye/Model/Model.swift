@@ -2,10 +2,10 @@ import Foundation
 
 struct Model {
     private var currentValue = 0
-    var targetValue = 0
-    var score = 0
-    var round = 0
-    var title = ""
+    private(set) var targetValue = 0
+    private(set) var score = 0
+    private(set) var round = 0
+    private(set) var title = ""
     
     mutating func startNewRound() {
         title = ""
@@ -13,7 +13,6 @@ struct Model {
         targetValue = Int.random(in: 1...100)
         currentValue = 50
     }
-    
 
     mutating func setCurrentValue(_ value: Int) {
         currentValue = value
